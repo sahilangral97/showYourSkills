@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
+.App {
+  background-color: #343e57;
+  height: 100vh;
+}
+.nav-color {
+  background-color: #2b2e3d;
+}
+.input-group-text {
+  color: #f4f4fe;
+}
+
+.shadow {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.form-control {
+  border: 1px solid #f4f4fe !important;
+}
+
+.navbar-brand {
+  color: #f4f4fe;
+  font-family: "Yusei Magic", sans-serif;
+}
+
+.navbar-brand:hover {
+  color: #f4f4fe;
+}
+
+.btn {
+  border-color: #f4f4fe !important;
+  color: #f4f4fe !important;
+  background-color: #2b2e3d;
+}
+.btn:focus {
+  background-color: #f4f4fe;
+  color: #2b2e3d;
+}
+.btn:hover {
+  color: #2b2e3d !important;
+  background-color: #f4f4fe;
+  border-color: #f4f4fe;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: #f4f4fe;
+}
+.nav-link:hover {
+  color: #f4f4fe;
+}
+
+nav {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.card {
+  width: 23rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-color: #f4f4fe;
+  flex-direction: row !important;
+}
+
+.rounded {
+  top: 30px !important;
+  right: 30px;
+}

@@ -9,6 +9,14 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  profession: {
+    type: String,
+    default: "Not Specified",
+  },
+  skills: {
+    type: Array,
+    default: [],
+  },
   password: {
     type: String,
     required: true,

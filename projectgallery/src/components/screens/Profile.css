@@ -1,0 +1,59 @@
+.card {
+  flex-direction: column !important;
+}
+.black-back {
+  background-color: "#2b2e3d" !important;
+  color: #f4f4fe;
+}
+.shadow {
+  box-shadow: 0 2.8px 2.2px rgba(255, 226, 226, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12) !important;
+}
+
+.card-back {
+  color: #f4f4fe;
+
+  margin: 5px;
+}
+
+h6 {
+  margin-bottom: 5px;
+}
+p {
+  margin-bottom: 0;
+}
+
+.profile-header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  flex-direction: column;
+}
+
+.image {
+  height: 100px;
+  margin: 10px;
+  max-width: 100%;
+}
+
+.deleteicon {
+  /* display: none; */
+  visibility: hidden;
+}
+.para:hover > .deleteicon {
+  /* display: block; */
+  visibility: visible;
+}
+
+.icon {
+  font-size: 1.7 rem !important;
+  margin-top: 1px;
+  margin-right: 2px;
+  transition: transform 450ms !important;
+}
+
+DeleteIcon {
+  color: #f4f4fe;
+}
